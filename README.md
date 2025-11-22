@@ -47,15 +47,15 @@ Simple JWT Authentication
 
 Cloudinary for image hosting
 # Installation & Setup
- Clone the Repository
- cd frontend
- npm install
- install tailwind CSS
- npm install react-router-dom
- npm install axios
- npm install framer-motion
- npm install lucide-react
- npm run dev
+ Clone the Repository <br/>
+ cd frontend <br/>
+ npm install <br/>
+ install tailwind CSS <br/>
+ npm install react-router-dom <br/>
+ npm install axios <br/>
+ npm install framer-motion <br/>
+ npm install lucide-react <br/>
+ npm run dev <br/> 
 
 
 
