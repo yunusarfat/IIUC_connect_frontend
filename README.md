@@ -1,16 +1,70 @@
-# React + Vite
+## IIUC Connect – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IIUC Connect is a modern alumni networking platform for IIUC students, alumni, teachers, and the university community.
+This repository contains the frontend (React.js + Tailwind CSS) of the project.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔐 Authentication (JWT)
 
-## React Compiler
+👤 User Profile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✏️ Update Profile (Name, Department, Batch, Picture)
 
-## Expanding the ESLint configuration
+📰 Blog Section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📅 Events Page
+
+💼 Job Board
+
+🎨 Modern UI with Tailwind CSS + Framer Motion animations
+
+📱 Fully responsive Navbar
+
+☁️ Cloudinary Image Support
+# 🛠️ Tech Stack
+##  Frontend
+
+React.js
+
+Vite 
+
+Tailwind CSS
+
+Axios
+
+React Router DOM
+
+Framer Motion
+
+Lucide-React Icons
+
+# Backend (for reference)
+
+Django Rest Framework (DRF)
+
+Simple JWT Authentication
+
+Cloudinary for image hosting
+# Installation & Setup
+ Clone the Repository
+ cd IIUC_connect_frontend
+ npm install
+ npm run dev
+
+## project structure:
+src/
+ ├── api/
+ │    └── api.js        # Axios instance
+ ├── components/
+ │    ├── Navbar.jsx
+ │    └── Footer.jsx
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── ProfilePage.jsx
+ │    ├── UpdateProfile.jsx
+ │    └── Login.jsx
+ └── App.jsx
+
+
+
